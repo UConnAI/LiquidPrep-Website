@@ -1,13 +1,13 @@
 {
-  "files": {
-    "main.css": "/static/css/main.062798c4.css",
-    "main.js": "/static/js/main.6682b1cb.js",
-    "index.html": "/index.html",
-    "main.062798c4.css.map": "/static/css/main.062798c4.css.map",
-    "main.6682b1cb.js.map": "/static/js/main.6682b1cb.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.062798c4.css",
-    "static/js/main.6682b1cb.js"
-  ]
+  "main.css": "/LiquidPrep-Website/static/css/main.fb75c053.chunk.css",
+  "main.js": "/LiquidPrep-Website/static/js/main.58187901.chunk.js",
+  "main.js.map": "/LiquidPrep-Website/static/js/main.58187901.chunk.js.map",
+  "runtime~main.js": "/LiquidPrep-Website/static/js/runtime~main.f3cc2a2e.js",
+  "runtime~main.js.map": "/LiquidPrep-Website/static/js/runtime~main.f3cc2a2e.js.map",
+  "static/js/2.650b8f26.chunk.js": "/LiquidPrep-Website/static/js/2.650b8f26.chunk.js",
+  "static/js/2.650b8f26.chunk.js.map": "/LiquidPrep-Website/static/js/2.650b8f26.chunk.js.map",
+  "index.html": "/LiquidPrep-Website/index.html",
+  "precache-manifest.ee72fd9ffb220ab53566df111f71aaba.js": "/LiquidPrep-Website/precache-manifest.ee72fd9ffb220ab53566df111f71aaba.js",
+  "service-worker.js": "/LiquidPrep-Website/service-worker.js",
+  "static/css/main.fb75c053.chunk.css.map": "/LiquidPrep-Website/static/css/main.fb75c053.chunk.css.map"
 }
