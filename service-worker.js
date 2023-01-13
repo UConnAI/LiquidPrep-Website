@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/LiquidPrep-Website/precache-manifest.24a2e9dfb8831b899ae56934f8dcd241.js"
+  "/LiquidPrep-Website/precache-manifest.ee72fd9ffb220ab53566df111f71aaba.js"
 );
 
 workbox.clientsClaim();
