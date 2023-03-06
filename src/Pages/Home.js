@@ -230,7 +230,7 @@ function HomePage() {
               </Card>
             </Stack>
             <Center paddingTop={"3rem"}>
-              <Link href={"/blogs"}>
+              <Link href={"/blog"}>
                 <Button
                   borderRadius={10}
                   backgroundColor="#4F83AE"
