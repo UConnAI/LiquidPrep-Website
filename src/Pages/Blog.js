@@ -1,6 +1,7 @@
 import { Center, HStack, Text, Stack } from "@chakra-ui/react";
 import React from "react";
 import BlogCard from "../components/BlogCard";
+import BlogPost from "../components/BlogPost";
 
 function BlogPage() {
     return (
@@ -25,6 +26,20 @@ function BlogPage() {
                     </HStack>
                 </Stack>
             </Center>
+            <Stack backgroundColor='white'>
+                <Text align={'left'} padding={'5rem'} fontSize="2xl">
+                    All Blog Posts
+                </Text>
+                <BlogPost
+                    heading={'Blog Post heading goes here'}
+                />
+                <BlogPost
+                    heading={'Blog Post heading goes here'}
+                />
+                <BlogPost
+                    heading={'Blog Post heading goes here'}
+                />
+            </Stack>
         </div>
     );
 }

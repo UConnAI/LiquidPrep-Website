@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Center, Stack, HStack, Card, CardBody, Image, Text, Heading } from "@chakra-ui/react";
+import { Center, Stack, HStack, Card, CardBody, Image, Text, Heading, Button } from "@chakra-ui/react";
 
 function BlogCard(props) {
     return (
@@ -17,11 +17,19 @@ function BlogCard(props) {
                     <Text>
                       {props.cardText}
                     </Text>
+                    <Button
+                    borderRadius={"100px"}
+                    background={"#fffffff"}
+                    borderColor={"black"}
+                    variant={"outline"}
+                    width={"7rem"}
+                  >
+                    Read More
+                  </Button>
                   </Stack>
                 </CardBody>
             </Card>
           </Center>
-          
         </div>
     )
 }
