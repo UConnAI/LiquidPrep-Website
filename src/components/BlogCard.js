@@ -4,7 +4,8 @@ import { Center, Stack, HStack, Card, CardBody, Image, Text, Heading } from "@ch
 
 function BlogCard(props) {
     return (
-        <div>
+        <div style={{ padding: '1rem' }}>
+          <Center>
             <Card maxW={"sm"}>
                 <CardBody>
                   <Image
@@ -19,6 +20,8 @@ function BlogCard(props) {
                   </Stack>
                 </CardBody>
             </Card>
+          </Center>
+          
         </div>
     )
 }
