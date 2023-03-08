@@ -18,11 +18,7 @@ function BlogCard(props) {
                       {props.cardText}
                     </Text>
                     <Button
-                    borderRadius={"100px"}
-                    background={"#fffffff"}
-                    borderColor={"black"}
-                    variant={"outline"}
-                    width={"7rem"}
+                    
                   >
                     Read More
                   </Button>
