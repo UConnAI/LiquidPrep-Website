@@ -17,11 +17,9 @@ function BlogCard(props) {
                     <Text>
                       {props.cardText}
                     </Text>
-                    <Button
-                    
-                  >
-                    Read More
-                  </Button>
+                    <Button>
+                      Read More
+                    </Button>
                   </Stack>
                 </CardBody>
             </Card>
