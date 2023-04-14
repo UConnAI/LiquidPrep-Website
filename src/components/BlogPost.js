@@ -21,15 +21,19 @@ function BlogPost(props) {
                                         <br />
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...
                                     </Text>
-                                    <Button
-                                        borderRadius={"150px"}
-                                        background={"#fffffff"}
-                                        borderColor={"black"}
-                                        variant={"outline"}
-                                        width={"7rem"}
+                                    <Container
+                                        paddingTop={"7rem"}
                                     >
-                                        Read More
-                                    </Button>
+                                        <Button
+                                            borderRadius={"150px"}
+                                            background={"#fffffff"}
+                                            borderColor={"black"}
+                                            variant={"outline"}
+                                            width={"7rem"}
+                                        >
+                                            Read More
+                                        </Button>
+                                    </Container>
                                 </Stack>
                             </Container>
                         </CardBody>
