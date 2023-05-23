@@ -112,7 +112,8 @@ fabric.properties
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -177,6 +178,11 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+
+# Generated static build files
+build/static
+build/asset-manifest.json
+build/index.html
 
 # Dependency directories
 node_modules/
@@ -312,4 +318,5 @@ sketch
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,jetbrains+all,macos,node,react
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
-
+# Firebase Hosting Cache
+.firebase/*.cache
